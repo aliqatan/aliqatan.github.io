@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.hero{
+	height:  50%;
+	max-height: 20vh;
+	width: 100%;
+	background:  #101010;
+	
+}
+
+.logo{
+	color: #e0e0e0;
+	background:  #101010;
+	font-size: 40px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+
+nav ul li a{
+	color: #e0e0e0;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.about{
+	height: auto;
+	width: auto;
+	padding: 10px 10px;
+	align-items: center;
+	background-color: #e0e0e0;
+}
+
+.about img{
+	height: 90%;
+	max-height: 500px;
+	width: 90%;
+	max-width: 500px;
+	align-items: center;
+  margin: auto;
+	display: block;
+}
+
+.main{
+	width: auto;
+	text-align: justify;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2{
+	color: #101010;
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.about-text h5{
+	color: #101010;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.about-text p{
+	color: #101010;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height:  30vh;
+	background:  #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	color: #e0e0e0;
+	font-size: 17px;
+	width: 100%;
+	text-align: center;
+	line-height: 26px;
+}
+
+.social{
+  display: flex;
+}
+
+.social a{
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #e0e0e0;
+	border-radius: 50%;
+	margin: 30px 10px;
+	color: #101010;
+	text-decoration: none;
+	font-size: 50px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+  position: absolute;
+  color: #e0e0e0;
+  bottom: 40px;
+  font-size: 14px;
+}
